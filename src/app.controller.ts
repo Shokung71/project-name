@@ -14,4 +14,9 @@ export class AppController {
   getit(): string{
     return "it works!";
   }
+
+  @Get('/it2')
+  getit2(): string{
+    return "222222";
+  }
 }
