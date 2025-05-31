@@ -11,12 +11,17 @@ export class AppController {
   }
 
   @Get('/it')
-  getit(): string{
-    return "it works!";
+  getit(): string {
+    return 'it works!';
   }
 
   @Get('/it2')
-  getit2(): string{
-    return "222222";
+  getit2(): string {
+    return '222222';
+  }
+
+  @Get('/it3')
+  getit3(): string {
+    return 'three';
   }
 }
